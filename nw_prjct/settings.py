@@ -43,10 +43,6 @@ INSTALLED_APPS = [
     'django_browser_reload'
 ]
 
-MIDDLEWARE = [
-  "django_browser_reload.middleware.BrowserReloadMiddleware",
-]
-
 INTERNAL_IPS = [
     "127.0.0.1",
 ]
@@ -67,6 +63,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
 ]
 
 ROOT_URLCONF = 'nw_prjct.urls'
