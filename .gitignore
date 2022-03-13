@@ -1,3 +1,5 @@
+.idea
+__pycache__
 venv
 main/__pycache__
 nw_prjct/__pycache__
