@@ -1,1 +1,5 @@
 venv
+main/__pycache__
+nw_prjct/__pycache__
+theme/__pycache__
+venv/pyvenv.cfg
